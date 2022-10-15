@@ -1,4 +1,7 @@
-﻿namespace Assets.Scripts.Model{
+﻿using global::System;
+using global::System.Collections.Generic;
+
+namespace Assets.Scripts.Model{
     public class ManBody: Body
     {
         public readonly ManHead Head = new();
@@ -73,7 +76,7 @@
                     water = value;
             }
         }
-        
+
         public event Action? PlayerTired;
         public event Action? PlayerHungry;
         public event Action? PlayerThirsty;

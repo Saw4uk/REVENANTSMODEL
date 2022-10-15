@@ -1,4 +1,6 @@
-﻿using System;
+﻿
+using global::System;
+using global::System.Linq;
 
 namespace Assets.Scripts.Model
 {
@@ -12,7 +14,7 @@ namespace Assets.Scripts.Model
         public float Size
         {
             get => size;
-            init
+            set
             {
                 if (value <= 0)
                     throw new ArgumentException();

@@ -1,10 +1,11 @@
 ﻿using System;
+using System.Linq;
 
 namespace Assets.Scripts.Model
 {
     public abstract class Cloth : Item
     {
-        protected int MaxArmor { get;  init; }
+        protected int MaxArmor { get;  set; }
         public float CurrentArmor { get; protected set; }
         public readonly Inventory Inventory;
         public float TotalWeight => Weight + Inventory.Items.Sum(item => item.Weight);

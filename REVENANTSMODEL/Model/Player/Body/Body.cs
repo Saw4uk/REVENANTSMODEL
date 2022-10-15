@@ -1,4 +1,8 @@
-﻿namespace Assets.Scripts.Model
+﻿using global::System;
+using global::System.Collections.Generic;
+using global::System.Linq;
+
+namespace Assets.Scripts.Model
 {
     public abstract class Body
     {

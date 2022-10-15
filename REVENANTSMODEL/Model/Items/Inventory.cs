@@ -1,4 +1,6 @@
-﻿namespace Assets.Scripts.Model
+﻿using global::System.Collections.Generic;
+
+namespace Assets.Scripts.Model
 {
     public class Inventory
     {

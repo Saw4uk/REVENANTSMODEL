@@ -1,10 +1,14 @@
 ﻿using System.Collections.Generic;
+using global::System.Linq;
 using UnityEngine;
 
 namespace Assets.Scripts.Model
 {
-    public class Group
+    public class Group : MonoBehaviour
     {
+        public int MaxOnGlobalMapGroupEndurance;
+        public int CurrentOnGlobalMapGroupEndurance;
+
         public readonly List<Character> currentGroupMembers;
         private int maxGroupMembers;
 
@@ -18,11 +22,12 @@ namespace Assets.Scripts.Model
 
         public void SubstracOnMove()
         {
-            //Вычесть характеристике всех игркокв группы при перемещении по карте
+            //Вычесть характеристике всех игрков группы при перемещении по карте
         }
 
         public void OnTurnEnd()
         {
+            currentGroupMembers.Select(character => character.Body.Energy--);
             //Вычислить все характеристки при окончании хода
         }
 
@@ -30,7 +35,7 @@ namespace Assets.Scripts.Model
         {
             foreach (var groupMember in currentGroupMembers)
             {
-                groupMember.Body.Energy--;
+                groupMember.Body.Food--;
             }
         }
 
@@ -55,9 +60,9 @@ namespace Assets.Scripts.Model
             foreach (var groupMember in currentGroupMembers)
             {
                 if (groupMember.Body.Food >= 8)
-                    groupMember.Energy++;
+                    groupMember.Body.Energy++;
                 if (groupMember.Body.Water >= 8)
-                    groupMember.Energy++;
+                    groupMember.Body.Energy++;
             }
         }
     }

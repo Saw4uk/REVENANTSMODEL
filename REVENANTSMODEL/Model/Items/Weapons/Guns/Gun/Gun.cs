@@ -1,9 +1,9 @@
 ﻿namespace Assets.Scripts.Model
 {
-    public abstract class Gun : Weapon
+    public abstract class Gun<TCaliber> : Weapon where TCaliber : Caliber
     {
-        protected Magazine CurrenMagazine;
-        protected Ammo Chamber;
+        protected Magazine<TCaliber> CurrentMagazine;
+        protected Caliber Chamber;
         /* 
          * После патронника в реализации абстракных классов будут идти слоты для GunModule.
          * У каждого оружия будет свой допустимый набор возможных GunModules

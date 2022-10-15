@@ -1,10 +1,13 @@
-﻿namespace Assets.Scripts.Model;
-
-public class Ak47: Gun
+﻿namespace Assets.Scripts.Model
 {
-    public Ak47()
+    public class Ak47: Gun<Caliber_762>
     {
-        FireRate = 1;
-        //TODO реализовать характеристики 
+        private Magazine<Caliber_762> magazine1 = new(30);
+        public Ak47()
+        {
+            FireRate = 1;
+            CurrentMagazine = magazine1;
+            //TODO реализовать характеристики 
+        }
     }
 }

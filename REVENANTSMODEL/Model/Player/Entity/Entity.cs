@@ -1,8 +1,10 @@
-﻿namespace Assets.Scripts.Model
+﻿using global::System;
+
+namespace Assets.Scripts.Model
 {
     public abstract class Entity
     {
-        public Body Body { get; protected init; }
+        public Body Body { get; protected set; }
         protected Weapon PrimaryGun;
         protected Weapon SecondaryGun;
         protected Weapon MeleeWeapon;
