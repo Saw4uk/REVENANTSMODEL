@@ -2,7 +2,7 @@
 
 namespace Assets.Scripts.Model
 {
-    public class CoughtPills : Item, IMedicament
+    public class CoughPills : Item, IMedicament
     {
         public void UseTo(Health target)
         {
