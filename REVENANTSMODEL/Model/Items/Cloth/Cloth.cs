@@ -8,7 +8,6 @@ namespace Assets.Scripts.Model
         public float Armor { get; protected set; }
         public readonly Inventory Inventory;
 
-
         protected Cloth(int maxArmor, Inventory inventory)
         {
             MaxArmor = maxArmor;
