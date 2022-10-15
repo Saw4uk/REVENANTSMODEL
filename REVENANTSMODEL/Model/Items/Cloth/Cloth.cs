@@ -16,7 +16,7 @@ namespace Assets.Scripts.Model
 
         public float CalculateBlockedDamage(Shoot shoot)
         {
-            //TODO еще одна умная формула
+            //TODO расчитать колличество заблокированного урона
             throw new NotImplementedException();
         }
     }
