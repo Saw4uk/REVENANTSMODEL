@@ -1,7 +1,6 @@
 ﻿using System;
-using Assets.Scripts.Model.ServiceClasses;
 
-namespace Assets.Scripts.Model.Items.Cloth
+namespace Assets.Scripts.Model
 {
     public abstract class Cloth : Item
     {

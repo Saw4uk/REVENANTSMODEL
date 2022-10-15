@@ -1,8 +1,6 @@
 ﻿using System;
-using Assets.Scripts.Model.Items.Cloth;
-using Assets.Scripts.Model.ServiceClasses;
 
-namespace Assets.Scripts.Model.Player.BodyPart
+namespace Assets.Scripts.Model
 {
     public abstract class BodyPart
     {

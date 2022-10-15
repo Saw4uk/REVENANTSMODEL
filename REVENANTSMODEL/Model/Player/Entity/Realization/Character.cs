@@ -1,8 +1,4 @@
-﻿
-using Assets.Scripts.Model.Player.Body;
-
-namespace Assets.Scripts.Model.Player.Entity.Realization
-{
+﻿namespace Assets.Scripts.Model{
     public class Character : Entity
     {
         public readonly ManBody Body;

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Assets.Scripts.Model.Items
+namespace Assets.Scripts.Model
 {
     public class Item
     {

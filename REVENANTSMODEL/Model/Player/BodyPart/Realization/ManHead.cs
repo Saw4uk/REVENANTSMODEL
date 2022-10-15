@@ -1,5 +1,4 @@
-﻿namespace Assets.Scripts.Model.Player.BodyPart.Realization
-{
+﻿namespace Assets.Scripts.Model{
     public class ManHead
     {
         

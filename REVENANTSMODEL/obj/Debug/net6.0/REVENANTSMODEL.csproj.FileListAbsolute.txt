@@ -1,0 +1,5 @@
+C:\Users\Saw4uk\source\repos\REVENANTSMODEL\REVENANTSMODEL\obj\Debug\net6.0\REVENANTSMODEL.csproj.AssemblyReference.cache
+C:\Users\Saw4uk\source\repos\REVENANTSMODEL\REVENANTSMODEL\obj\Debug\net6.0\REVENANTSMODEL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Saw4uk\source\repos\REVENANTSMODEL\REVENANTSMODEL\obj\Debug\net6.0\REVENANTSMODEL.AssemblyInfoInputs.cache
+C:\Users\Saw4uk\source\repos\REVENANTSMODEL\REVENANTSMODEL\obj\Debug\net6.0\REVENANTSMODEL.AssemblyInfo.cs
+C:\Users\Saw4uk\source\repos\REVENANTSMODEL\REVENANTSMODEL\obj\Debug\net6.0\REVENANTSMODEL.csproj.CoreCompileInputs.cache

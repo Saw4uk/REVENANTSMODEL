@@ -1,7 +1,7 @@
-﻿namespace Assets.Scripts.Model.Items
+﻿namespace Assets.Scripts.Model
 {
     public class Inventory
     {
-        public readonly Li
+        public readonly List<Item> items;
     }
 }

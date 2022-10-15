@@ -1,6 +1,4 @@
 ﻿using System.Collections.Generic;
-using Assets.Scripts.Model.Items;
-using Assets.Scripts.Model.Player.Entity.Realization;
 using UnityEngine;
 
 namespace Assets.Scripts.Model
