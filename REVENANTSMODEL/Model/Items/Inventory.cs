@@ -2,6 +2,13 @@
 {
     public class Inventory
     {
-        public readonly List<Item> items;
+        public readonly Size InventorySize;
+        public readonly List<Item> Items;
+
+        public Inventory(Size size)
+        {
+            InventorySize = size;
+            Items = new List<Item>();
+        }
     }
 }

@@ -4,7 +4,7 @@ namespace Assets.Scripts.Model
 {
     public class Item
     {
-        public readonly float Weight;
-        public Tuple<int,int> InventorySize;
+        public float Weight { get; protected set; }
+        public Size InventorySize;
     }
 }

@@ -7,7 +7,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63c7377d-8676-4f97-ba41-8b45b8f01002" name="Changes" comment="csproj" />
+    <list default="true" id="63c7377d-8676-4f97-ba41-8b45b8f01002" name="Changes" comment="csproj">
+      <change afterPath="$PROJECT_DIR$/Model/Items/Size.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Model/Items/Weapons/Guns/Ammo/Realization/Caliber_7,62.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Model/Items/Weapons/Guns/Gun/Realizations/AK47.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Model/Player/BodyPart/Realization/ManArm.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Model/Player/BodyPart/Realization/ManChest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Model/Player/BodyPart/Realization/ManLeg.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Model/Player/BodyPart/Realization/ManStomach.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.REVENANTSMODEL.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.REVENANTSMODEL.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/Items/Cloth/Cloth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Items/Cloth/Cloth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/Items/Inventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Items/Inventory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/Items/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Items/Item.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/Items/MedRemedy/MedRemedy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Items/MedRemedy/MedRemedy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/Items/Medicament/Medicament.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Items/Medicament/Medicament.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/Items/Weapons/Guns/Ammo/Ammo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Items/Weapons/Guns/Ammo/Ammo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/Items/Weapons/Guns/Gun/Gun.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Items/Weapons/Guns/Gun/Gun.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/Items/Weapons/Guns/GunModule/GunModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Items/Weapons/Guns/GunModule/GunModule.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/Items/Weapons/Guns/Magazine/Magazine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Items/Weapons/Guns/Magazine/Magazine.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/Items/Weapons/MeleeWeapon/MeleeWeapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Items/Weapons/MeleeWeapon/MeleeWeapon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/Player/Body/Body.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Player/Body/Body.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/Player/Body/Realization/ManBody.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Player/Body/Realization/ManBody.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/Player/BodyPart/BodyPart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Player/BodyPart/BodyPart.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/Player/BodyPart/Realization/ManHead.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Player/BodyPart/Realization/ManHead.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/Player/Entity/Entity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Player/Entity/Entity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/Player/Entity/Realization/Character.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Player/Entity/Realization/Character.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665830446600</updated>
-      <workItem from="1665830451923" duration="1066000" />
+      <workItem from="1665830451923" duration="5129000" />
     </task>
     <task id="LOCAL-00001" summary="csproj">
       <created>1665830875686</created>

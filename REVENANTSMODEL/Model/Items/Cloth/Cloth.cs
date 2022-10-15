@@ -4,13 +4,13 @@ namespace Assets.Scripts.Model
 {
     public abstract class Cloth : Item
     {
-        protected readonly int MaxArmor;
-        public float Armor { get; protected set; }
+        protected int MaxArmor { get;  init; }
+        public float CurrentArmor { get; protected set; }
         public readonly Inventory Inventory;
+        public float TotalWeight => Weight + Inventory.Items.Sum(item => item.Weight);
 
-        protected Cloth(int maxArmor, Inventory inventory)
+        protected Cloth(Inventory inventory)
         {
-            MaxArmor = maxArmor;
             Inventory = inventory;
         }
 

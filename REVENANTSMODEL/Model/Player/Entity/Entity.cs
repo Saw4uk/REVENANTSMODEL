@@ -2,14 +2,15 @@
 {
     public abstract class Entity
     {
-        public readonly Body Body;
-        private Weapon primaryGun;
-        private Weapon secondaryGun;
-        private Weapon meleeWeapon;
-        private Weapon chosenWeapon;
+        public Body Body { get; protected init; }
+        protected Weapon PrimaryGun;
+        protected Weapon SecondaryGun;
+        protected Weapon MeleeWeapon;
+        protected Weapon ChosenWeapon;
         public void Attack(Weapon weapon, Body target)
         {
-            //Стрельба из gun по target вызывает у gun метод стрельбы, который формирует служебный класс Shoot
+            //TODO Реализовать метод стрельбы из weapon по target вызывает у gun метод стрельбы, который формирует служебный класс Shoot
+            throw new NotImplementedException();
         }
 
     }

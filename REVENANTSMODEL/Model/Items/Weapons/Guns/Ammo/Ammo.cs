@@ -1,16 +1,17 @@
 ﻿namespace Assets.Scripts.Model
 {
-    public abstract class Ammo // Патрон не наследуется от класса предмета, патроны будут хранится в коробках, которые будут отображаться в инвентаре
+    // Патрон не наследуется от класса предмета, патроны будут хранится в коробках, которые будут отображаться в инвентаре
+    public abstract class Ammo
     {
-        public readonly Caliber Caliber;
-        public readonly float Damage;
-        public readonly float ExtraFireDistance;
-        public readonly float ArmorPenetrating;
-        public readonly float BoneBreakingChance;
-        public readonly float BleedingChance;
-        public readonly float Recoil;
-        public readonly float ExtraAccuravy;
-        public readonly float Noise;
-        public readonly float Weigth;
+        public Caliber Caliber { get; protected init; }
+        public float Damage { get; protected init; }
+        public float ExtraFireDistance { get; protected init; }
+        public float ArmorPenetrating { get; protected init; }
+        public float BoneBreakingChance { get; protected init; }
+        public float BleedingChance { get; protected init; }
+        public float Recoil { get; protected init; }
+        public float ExtraAccuracy { get; protected init; }
+        public float Noise { get; protected init; }
+        public float Weight { get; protected init; }
     }
 }

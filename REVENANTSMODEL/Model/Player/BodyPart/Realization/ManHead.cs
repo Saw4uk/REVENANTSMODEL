@@ -1,5 +1,6 @@
-﻿namespace Assets.Scripts.Model{
-    public class ManHead
+﻿namespace Assets.Scripts.Model
+{
+    public class ManHead: BodyPart
     {
         
     }
